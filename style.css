@@ -18,6 +18,50 @@ h1 {
   color: #107546;
 }
 
+header {
+  height: 100px;
+  background: #64be94;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.kiwi-image {
+  width: 40px;
+  height: 30px;
+  border-radius: 30%;
+  margin: 1rem; 
+}
+/*i dont know if the margin is nessicary for the logo image*/
+
+.title-content {
+
+}
+
+.intro-content {
+
+}
+
+.product-description {
+
+}
+
+.pricing {
+
+}
+
+.pricing2 {
+
+}
+
+.questions 
+
+.footer-content
+
+
+
+
+
 
 
 
