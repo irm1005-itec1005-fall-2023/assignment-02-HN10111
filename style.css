@@ -3,60 +3,203 @@
  * CSS FILE
  */
 
-body {
-  font-family: Arial, Helvetica, sans-serif;
-  background-color: #b7d6b6;
+*{
+  Margin: 0; padding:0;
+  box-sizing: border-box;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  outline: none; border: none;
+  text-decoration: none;
+  text-transform: capitalize;
+  background-color: rgb(58, 56, 56);
+}
+
+*/ html {
+  font-size: 50%;
+  scroll-behavior: smooth;
+  scroll-padding-top: 6rem;
+  overflow-x: hidden;
+}
+
+section {
+  padding: 2rem 9%;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  color: #f5b325;
+  background-color: black;
+  font-size: 2rem;
+}
+
+header h1{
+  background-color: black;
+  margin: 0;
+}
+
+nav ul{
+  list-style: none;
+  padding: 2rem;
+  display: flex;
+  background-color: black;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+  font-weight: bold;
+  background-color: black;
+}
+
+nav ul li a {
+  color: #8d2b05;
+  background-color: black;
+}
+
+nav ul li a:hover{
+  text-decoration: line-through;
+}
+
+/*Logo Image*/
+.logo {
+  width: 100px;
+  height: 95px;
+  margin-right: 10px;
+}
+
+/*Intro Image*/
+.intro-img {
+  background: url(./images/B3.jpg) no-repeat;
+  background-size: cover;
+  background-position: cover;
+}
+
+/*Hero Section*/
+.hero-img{
+  border-radius: 50rem;
+  margin-right: 1.5rem;
+}
+
+.about{
+  display:flex;
+  align-items: center;
+  background-color: #411402;
+}
+
+.text-content {
+  display:flex;
+  align-items: center;
+  flex-direction: column;
+  color: #ffff;
+  background-color: #411402;
+}
+
+.about h2{
+font-size: 2.5rem;
+display: flex;
+background-color: #411402;
+}
+
+.about h3{
+  font-size: 1.5rem;
+  font-style: italic;
+  background-color: #411402;
+}
+
+.about p{
+  background-color: #411402;
+}
+
+.Hosts h2{
   display: flex;
   justify-content: center;
-  align-items: center;
+  color: #f5b325;
+  background-color: black;
+  font-size: 4rem;
 }
 
-h1 {
-  font-size: 2rem;
-  font-weight: bold;
-  text-align: center;
-  color: #107546;
-}
-
-header {
-  height: 100px;
-  background: #64be94;
+.card-container{
   display: flex;
-  justify-content: space-between;
-
+  justify-content: center;
+  background-color: #01023a;
 }
 
-.kiwi-image {
-  width: 40px;
-  height: 30px;
-  border-radius: 30%;
-  margin: 1rem; 
-}
-/*i dont know if the margin is nessicary for the logo image*/
-
-.title-content {
-
+.card{
+  width: 430px;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0px 2px 4px rgb(1, 18, 253);
+  margin: 5px;
+  background-color: #01023a;
 }
 
-.intro-content {
-
+.card img{
+  width: 100%;
+  height: auto;
 }
 
-.product-description {
-
+.card h3{
+  background-color: #01023a;
+  color: #e7a006;
+  font-style: italic;
 }
 
-.pricing {
-
+.card p{
+  background-color: #01023a;
+  color: #ffff;
 }
 
-.pricing2 {
 
+
+.feedback-form{
+  background-color: #000000;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  padding: 20px;
+  width: 400px;
 }
 
-.questions 
+.feedback-form h3{
+  text-align: center;
+  background-color: #000000;
+  color: #fff;
+}
 
-.footer-content
+.form-group{
+  margin: 10px 0;
+  color: #fff;
+}
+
+.form-group label{
+  display: block;
+  font-weight: bold;
+  background-color: #000000;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group textarea{
+  width: 100%;
+  padding: 8px;
+  margin: 5px 0;
+  border: 1px solid #fff;
+  border-radius: 3px;
+  background-color: #000000;
+}
+
+.form-group textarea{
+  height: 100px;
+}
+
+.feedback-btn{
+  text-align: center;
+  margin: 20px 0;
+  background-color: #000000;
+}
+
+.form-group{
+  background-color: #000000;
+}
 
 
 
@@ -68,18 +211,20 @@ header {
 
 
 
+.footer{
+  display: flex;
+  align-items: center;
+  color: #f5b325;
+  background-color: black;
+  font-size: 1rem;
+}
 
+.footer h2{
+  background-color: black;
+  margin: 0;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
+.footer p{
+  background-color: black;
+}
 
